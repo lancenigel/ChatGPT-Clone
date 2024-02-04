@@ -14,21 +14,13 @@
 }
 
 .chat-log{
+  padding: 24px;
   text-align: left;
-}
-
-.chat-message{ 
-  background-color: rgb(255, 255, 255, 0.1);
-}
-
-.chat-message-center{
-  max-width:480px;
-  margin-left:auto;
-  margin-right:auto;
-  padding: 12px;
   display: flex;
-  padding-left: 24px;
-  padding-right: 24px;
+}
+
+.chat-message{
+  padding: 12px;
 }
 
 .avatar{
@@ -39,8 +31,7 @@
 }
 
 .message{
-  padding-left: 40px;
-  padding-right: 40px;
+
 
 }
 

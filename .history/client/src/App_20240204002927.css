@@ -10,58 +10,21 @@
 .chatbox {
   flex: 1;
   background-color: #343541;
-  position:relative;
 }
-
-.chat-log{
-  text-align: left;
-}
-
-.chat-message{ 
-  background-color: rgb(255, 255, 255, 0.1);
-}
-
-.chat-message-center{
-  max-width:480px;
-  margin-left:auto;
-  margin-right:auto;
-  padding: 12px;
-  display: flex;
-  padding-left: 24px;
-  padding-right: 24px;
-}
-
-.avatar{
-  background: white;
-  border-radius: 40%;
-  width: 40px;
-  height: 40px;
-}
-
-.message{
-  padding-left: 40px;
-  padding-right: 40px;
-
-}
-
 
 .chat-input-holder {
-  padding: 24px;
-  position: absolute;
-  bottom:0;
-  left:0; right:0;
+  padding: 12px;
+  
 }
 
 .chat-input-textarea{
   background-color: #40414f;
-  width: 90%;
+  width: 100%;
   border-radius: 5px;
-  padding: 12px;
-  color:white;
   border: none;
   margin: 12px;
   outline: none;
-  box-shadow: 0 0px 8px 0 rgb(0,0,0, 0.25);
+  box-shadow: 0 8px 4px 0 rgb(0,0,0, 0.5);
 }
 
 .sidemenu {
