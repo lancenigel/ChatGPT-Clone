@@ -6,10 +6,7 @@ function App() {
   return (
     <div className="App">
       <aside className="sidemenu">
-        <div className="sidemenu-button">
-          <span className="sidemenu-button-span">+</span>
-          New Chat
-        </div>
+        <div className="sidemenu-button">+ New Chat</div>
       </aside>
       <section className="chatbox"></section>
     </div>
