@@ -17,12 +17,12 @@
   text-align: left;
 }
 
-.chat-message.chatgpt{ 
-  background-color: #444654;
+.chat-message{ 
+  background-color: rgb(255, 255, 255, 0.1);
 }
 
 .chat-message-center{
-  max-width:640px;
+  max-width:480px;
   margin-left:auto;
   margin-right:auto;
   padding: 12px;
@@ -33,14 +33,7 @@
 
 .avatar{
   background: white;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-}
-
-.avatar.chatgpt{
-  background: black;
-  border-radius: 50%;
+  border-radius: 40%;
   width: 40px;
   height: 40px;
 }

@@ -21,7 +21,7 @@ function App() {
           </div>
           <div className="chat-message chatgpt">
             <div className="chat-message-center">
-              <div className="avatar chatgpt">
+              <div className="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={41}

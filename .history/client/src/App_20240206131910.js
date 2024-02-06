@@ -24,8 +24,8 @@ function App() {
               <div className="avatar chatgpt">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width={41}
-                  height={41}
+                  width={35}
+                  height={35}
                   fill="none"
                   className="h-2/3 w-2/3"
                 >
