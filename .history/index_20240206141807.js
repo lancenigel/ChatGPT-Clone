@@ -1,10 +1,9 @@
-import "dotenv/config"; // This should be at the very top of your index.js
 import OpenAI from "openai";
 import express from "express";
 
 const openai = new OpenAI({
   organization: "org-oezLVIEEl0GUfg45T9r0ysFd",
-  apiKey: process.env.API_KEY,
+  apiKey: "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",
 });
 
 async function main() {
